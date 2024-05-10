@@ -14,9 +14,9 @@ namespace MiApp
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
-                "Procesos",
-                "Procesos/{action}/{id}",
-                defaults: new { controller = "Procesos", action = "Listado", id = UrlParameter.Optional}
+                "Clientes",
+                "Clientes/{nombre}",
+                defaults: new { controller = "Clientes", action = "Buscar", nombre = UrlParameter.Optional}
                 );
 
             routes.MapRoute(

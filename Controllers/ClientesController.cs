@@ -6,12 +6,13 @@ using System.Web.Mvc;
 
 namespace MiApp.Controllers
 {
-    public class ProcesosController : Controller
+    public class ClientesController : Controller
     {
         // GET: Procesos
-        public string Listado()
+        public ActionResult Buscar(string nombre)
         {
-            return "Listado de procesos";
+            var input = Server.HtmlEncode (nombre);
+            return Content(input);
         }
     }
 }

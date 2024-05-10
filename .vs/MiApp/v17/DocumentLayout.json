@@ -3,19 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\OIC\\source\\repos\\MiApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|c:\\users\\oic\\source\\repos\\miapp\\controllers\\procesoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|solutionrelative:controllers\\procesoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|c:\\users\\oic\\source\\repos\\miapp\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|solutionrelative:controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|c:\\users\\oic\\source\\repos\\miapp\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|C:\\Users\\OIC\\source\\repos\\MiApp\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|c:\\users\\oic\\source\\repos\\miapp\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|C:\\Users\\OIC\\source\\repos\\MiApp\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|solutionrelative:global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|c:\\users\\oic\\source\\repos\\miapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|C:\\Users\\OIC\\source\\repos\\MiApp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -39,12 +39,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProcesosController.cs",
-              "DocumentMoniker": "C:\\Users\\OIC\\source\\repos\\MiApp\\Controllers\\ProcesosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProcesosController.cs",
-              "ToolTip": "C:\\Users\\OIC\\source\\repos\\MiApp\\Controllers\\ProcesosController.cs",
-              "RelativeToolTip": "Controllers\\ProcesosController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\OIC\\source\\repos\\MiApp\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\OIC\\source\\repos\\MiApp\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "Controllers\\ClientesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-10T12:44:51.737Z",
               "EditorCaption": ""
@@ -57,7 +57,7 @@
               "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
               "ToolTip": "C:\\Users\\OIC\\source\\repos\\MiApp\\App_Start\\RouteConfig.cs",
               "RelativeToolTip": "App_Start\\RouteConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-10T12:32:40.23Z",
               "EditorCaption": ""
@@ -72,8 +72,7 @@
               "RelativeToolTip": "Global.asax.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T12:32:26.878Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-10T12:32:26.878Z"
             },
             {
               "$type": "Document",
@@ -85,8 +84,7 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T12:25:46.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-10T12:25:46.755Z"
             }
           ]
         }
