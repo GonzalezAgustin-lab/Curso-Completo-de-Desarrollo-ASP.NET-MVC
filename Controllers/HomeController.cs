@@ -19,11 +19,19 @@ namespace MiApp.Controllers
             return "Este es mi controlador home";
         }
 
-        [Authorize (Roles = "Admin")]
-        [OutputCache (Duration = 10)]
+        /*[Authorize (Roles = "Admin")]
+        [OutputCache (Duration = 10)]*/
+        [ActionName("Hora")]
         public string HoraActual()
         {
-            return DateTime.Now.ToString("T");
+            //return DateTime.Now.ToString("T");
+            return CadenaHora();
+        }
+
+        [NonAction]
+        public string CadenaHora()
+        {
+            return "Son las " + DateTime.Now.ToString("T");
         }
 
     }
