@@ -19,7 +19,12 @@ namespace MiApp.Controllers
             return "Este es mi controlador home";
         }*/
 
-        public ActionResult MiVista()
+        /*public ActionResult MiVista()
+        {
+            return View();
+        }*/
+
+        public ActionResult Index()
         {
             return View();
         }
