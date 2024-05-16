@@ -16,8 +16,8 @@ namespace MiApp
 
             routes.MapRoute(
                 "Clientes",
-                "Clientes/{nombre}",
-                defaults: new { controller = "Clientes", action = "Buscar", nombre = UrlParameter.Optional }
+                "Clientes",
+                defaults: new { controller = "Clientes", action = "Index", nombre = UrlParameter.Optional }
                 );
 
             routes.MapRoute(

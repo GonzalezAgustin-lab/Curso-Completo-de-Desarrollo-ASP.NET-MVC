@@ -76,3 +76,7 @@ C:\Users\OIC\source\repos\MiApp\obj\Debug\MiApp.csproj.CoreCompileInputs.cache
 C:\Users\OIC\source\repos\MiApp\obj\Debug\MiApp.csproj.Up2Date
 C:\Users\OIC\source\repos\MiApp\obj\Debug\MiApp.dll
 C:\Users\OIC\source\repos\MiApp\obj\Debug\MiApp.pdb
+C:\Users\OIC\source\repos\MiApp\bin\EntityFramework.dll
+C:\Users\OIC\source\repos\MiApp\bin\EntityFramework.SqlServer.dll
+C:\Users\OIC\source\repos\MiApp\bin\EntityFramework.xml
+C:\Users\OIC\source\repos\MiApp\bin\EntityFramework.SqlServer.xml
