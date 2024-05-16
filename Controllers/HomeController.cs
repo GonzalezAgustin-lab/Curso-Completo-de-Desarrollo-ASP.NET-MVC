@@ -14,9 +14,14 @@ namespace MiApp.Controllers
             return RedirectToAction("TodosLosProveedores", "proveedores");
         }*/
 
-        public string Index() 
+        /*public string Index() 
         {
             return "Este es mi controlador home";
+        }*/
+
+        public ActionResult MiVista()
+        {
+            return View();
         }
 
         /*[Authorize (Roles = "Admin")]
