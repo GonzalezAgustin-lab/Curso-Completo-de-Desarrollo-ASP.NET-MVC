@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
@@ -16,7 +17,13 @@ namespace MiApp
             routes.MapRoute(
                 "Clientes",
                 "Clientes/{nombre}",
-                defaults: new { controller = "Clientes", action = "Buscar", nombre = UrlParameter.Optional}
+                defaults: new { controller = "Clientes", action = "Buscar", nombre = UrlParameter.Optional }
+                );
+
+            routes.MapRoute(
+                "Proveedores",
+                "Proveedores",
+                defaults: new { controller = "Proveedores", action = "TodosLosProveedores", nombre = UrlParameter.Optional }
                 );
 
             routes.MapRoute(
