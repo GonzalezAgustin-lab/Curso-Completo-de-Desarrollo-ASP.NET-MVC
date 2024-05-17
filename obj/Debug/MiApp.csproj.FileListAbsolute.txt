@@ -80,3 +80,6 @@ C:\Users\OIC\source\repos\MiApp\bin\EntityFramework.dll
 C:\Users\OIC\source\repos\MiApp\bin\EntityFramework.SqlServer.dll
 C:\Users\OIC\source\repos\MiApp\bin\EntityFramework.xml
 C:\Users\OIC\source\repos\MiApp\bin\EntityFramework.SqlServer.xml
+C:\Users\OIC\source\repos\MiApp\obj\Debug\MiApp.Migrations.InitialCreate.resources
+C:\Users\OIC\source\repos\MiApp\obj\Debug\MiApp.csproj.GenerateResource.cache
+C:\Users\OIC\source\repos\MiApp\obj\Debug\MiApp.Migrations.Dataannotations.resources
