@@ -12,9 +12,27 @@ namespace MiApp.Controllers
     public class ClientesController : Controller
     {
 
+        public static List<Clientes> emList = new List<Clientes>
+        {
+            new Clientes
+            {
+                Id = 1,
+                Nombre = "Agustin",
+                FechaAlta = DateTime.Parse(DateTime.Today.ToString()),
+                Edad = 30
+            },
+            new Clientes
+            {
+                Id = 2,
+                Nombre = "Lilia",
+                FechaAlta = DateTime.Parse(DateTime.Today.ToString()),
+                Edad = 34
+            },
+        };
+
         public ActionResult Index()
         {
-            var Clientes = from e in TodosLosClientes()
+            var Clientes = from e in emList
                            orderby e.Id
                            select e;
             return View(Clientes);
@@ -43,9 +61,11 @@ namespace MiApp.Controllers
             }
         }
 
-        public ActionResult Edit()
+        public ActionResult Edit(int id)
         {
-            return View();
+            List<Clientes> emList = TodosLosClientes();
+            var Clientes = emList.Single(m => m.Id == id);
+            return View(Clientes);
         }
 
         [HttpPost]
@@ -53,7 +73,10 @@ namespace MiApp.Controllers
         {
             try
             {
-                return RedirectToAction("Index");
+                var Clientes = emList.Single(m => m.Id == id);
+                if (TryUpdateModel(Clientes))
+                    return RedirectToAction("Index");
+                return View(Clientes);
             }
             catch
             {

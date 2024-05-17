@@ -118,6 +118,7 @@
     <Content Include="Views\Home\MiVista.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Clientes\Index.cshtml" />
+    <Content Include="Views\Clientes\Edit.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
