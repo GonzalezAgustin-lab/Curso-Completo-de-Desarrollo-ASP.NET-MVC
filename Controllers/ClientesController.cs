@@ -12,7 +12,7 @@ namespace MiApp.Controllers
     public class ClientesController : Controller
     {
 
-        public static List<Clientes> emList = new List<Clientes>
+        public static List<Clientes> empList = new List<Clientes>
         {
             new Clientes
             {
@@ -32,7 +32,7 @@ namespace MiApp.Controllers
 
         public ActionResult Index()
         {
-            var Clientes = from e in emList
+            var Clientes = from e in empList
                            orderby e.Id
                            select e;
             return View(Clientes);
@@ -49,10 +49,19 @@ namespace MiApp.Controllers
         }
 
         [HttpPost] 
-        public ActionResult Create(FormCollection collection)
+        public ActionResult Create(/*FormCollection collection*/ Clientes emp)
         {
             try
             {
+                empList.Add(emp);
+                /*Clientes emp = new Models.Clientes();
+                emp.Nombre = collection["nombre"];
+                DateTime jDate;
+                DateTime.TryParse(collection["FechaAlta"], out jDate);
+                emp.FechaAlta = jDate;
+                string edad = collection["edad"];
+                emp.Edad = Int32.Parse(edad);
+                empList.Add(emp);*/
                 return RedirectToAction("Index");
             }
             catch
@@ -73,7 +82,7 @@ namespace MiApp.Controllers
         {
             try
             {
-                var Clientes = emList.Single(m => m.Id == id);
+                var Clientes = empList.Single(m => m.Id == id);
                 if (TryUpdateModel(Clientes))
                     return RedirectToAction("Index");
                 return View(Clientes);

@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|solutionrelative:controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|C:\\Users\\OIC\\source\\repos\\MiApp\\views\\clientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|solutionrelative:views\\clientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|c:\\users\\oic\\source\\repos\\miapp\\views\\clientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|solutionrelative:views\\clientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|C:\\Users\\OIC\\source\\repos\\MiApp\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +21,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|C:\\Users\\OIC\\source\\repos\\MiApp\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|solutionrelative:views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|C:\\Users\\OIC\\source\\repos\\MiApp\\views\\clientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|solutionrelative:views\\clientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|C:\\Users\\OIC\\source\\repos\\MiApp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,14 +55,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\OIC\\source\\repos\\MiApp\\Views\\Clientes\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clientes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\OIC\\source\\repos\\MiApp\\Views\\Clientes\\Create.cshtml",
+              "RelativeToolTip": "Views\\Clientes\\Create.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAADoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-17T18:33:01.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\OIC\\source\\repos\\MiApp\\Views\\Clientes\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Clientes\\Edit.cshtml",
               "ToolTip": "C:\\Users\\OIC\\source\\repos\\MiApp\\Views\\Clientes\\Edit.cshtml",
               "RelativeToolTip": "Views\\Clientes\\Edit.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-17T16:22:44.753Z"
+              "WhenOpened": "2024-05-17T16:22:44.753Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -68,9 +86,10 @@
               "RelativeDocumentMoniker": "Views\\Clientes\\Index.cshtml",
               "ToolTip": "C:\\Users\\OIC\\source\\repos\\MiApp\\Views\\Clientes\\Index.cshtml",
               "RelativeToolTip": "Views\\Clientes\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBcAAAAZAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-16T20:31:32.596Z"
+              "WhenOpened": "2024-05-16T20:31:32.596Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -82,7 +101,8 @@
               "RelativeToolTip": "Models\\Clientes.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T20:15:42.856Z"
+              "WhenOpened": "2024-05-16T20:15:42.856Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -92,7 +112,7 @@
               "RelativeDocumentMoniker": "Controllers\\ClientesController.cs",
               "ToolTip": "C:\\Users\\OIC\\source\\repos\\MiApp\\Controllers\\ClientesController.cs",
               "RelativeToolTip": "Controllers\\ClientesController.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAkwFMAAAANAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAQwDkAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T19:02:25.308Z",
               "EditorCaption": ""
@@ -107,11 +127,12 @@
               "RelativeToolTip": "App_Start\\RouteConfig.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAACQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T12:32:40.23Z"
+              "WhenOpened": "2024-05-10T12:32:40.23Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ProveedoresController.cs",
               "DocumentMoniker": "C:\\Users\\OIC\\source\\repos\\MiApp\\Controllers\\ProveedoresController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProveedoresController.cs",
@@ -123,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\OIC\\source\\repos\\MiApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
