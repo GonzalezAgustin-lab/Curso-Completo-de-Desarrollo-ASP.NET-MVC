@@ -30,9 +30,11 @@ namespace MiApp.Controllers
             },
         };
 
+        private EmpDBContext db = new EmpDBContext();
+
         public ActionResult Index()
         {
-            var Clientes = from e in empList
+            var Clientes = from e in db.Clientes
                            orderby e.Id
                            select e;
             return View(Clientes);
@@ -53,7 +55,8 @@ namespace MiApp.Controllers
         {
             try
             {
-                empList.Add(emp);
+                db.Clientes.Add(emp);
+                db.SaveChanges();
                 /*Clientes emp = new Models.Clientes();
                 emp.Nombre = collection["nombre"];
                 DateTime jDate;
@@ -72,8 +75,7 @@ namespace MiApp.Controllers
 
         public ActionResult Edit(int id)
         {
-            List<Clientes> emList = TodosLosClientes();
-            var Clientes = emList.Single(m => m.Id == id);
+            var Clientes = db.Clientes.Single(m => m.Id == id);
             return View(Clientes);
         }
 
@@ -82,9 +84,12 @@ namespace MiApp.Controllers
         {
             try
             {
-                var Clientes = empList.Single(m => m.Id == id);
+                var Clientes = db.Clientes.Single(m => m.Id == id);
                 if (TryUpdateModel(Clientes))
+                {
+                    db.SaveChanges();
                     return RedirectToAction("Index");
+                }
                 return View(Clientes);
             }
             catch
