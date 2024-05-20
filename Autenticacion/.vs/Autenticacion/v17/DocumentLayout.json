@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\OIC\\source\\repos\\MiApp\\Autenticacion\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{42922348-D912-406B-A7D0-243E5FB7F3BC}|Autenticacion.csproj|c:\\users\\oic\\source\\repos\\miapp\\autenticacion\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42922348-D912-406B-A7D0-243E5FB7F3BC}|Autenticacion.csproj|solutionrelative:controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{42922348-D912-406B-A7D0-243E5FB7F3BC}|Autenticacion.csproj|c:\\users\\oic\\source\\repos\\miapp\\autenticacion\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{42922348-D912-406B-A7D0-243E5FB7F3BC}|Autenticacion.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42922348-D912-406B-A7D0-243E5FB7F3BC}|Autenticacion.csproj|c:\\users\\oic\\source\\repos\\miapp\\autenticacion\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{42922348-D912-406B-A7D0-243E5FB7F3BC}|Autenticacion.csproj|C:\\Users\\OIC\\source\\repos\\MiApp\\Autenticacion\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{42922348-D912-406B-A7D0-243E5FB7F3BC}|Autenticacion.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -31,6 +35,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AccesoController.cs",
+              "DocumentMoniker": "C:\\Users\\OIC\\source\\repos\\MiApp\\Autenticacion\\Controllers\\AccesoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccesoController.cs",
+              "ToolTip": "C:\\Users\\OIC\\source\\repos\\MiApp\\Autenticacion\\Controllers\\AccesoController.cs",
+              "RelativeToolTip": "Controllers\\AccesoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T14:36:11.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\OIC\\source\\repos\\MiApp\\Autenticacion\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
@@ -43,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\OIC\\source\\repos\\MiApp\\Autenticacion\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
