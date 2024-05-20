@@ -40,9 +40,12 @@ namespace MiApp.Controllers
             return View(Clientes);
         }
 
-        public ActionResult Details() 
+        /*[OutputCache (Duration = int.MaxValue, VaryByParam = "id")]*/
+        [OutputCache(CacheProfile = "Cache5Minutos")]
+        public ActionResult Details(int id) 
         { 
-            return View();      
+            var Clientes = db.Clientes.SingleOrDefault(e => e.Id == id);
+            return View(Clientes);      
         }
 
         public ActionResult Create() 
