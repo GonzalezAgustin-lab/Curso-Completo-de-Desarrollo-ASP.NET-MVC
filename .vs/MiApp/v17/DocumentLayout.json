@@ -3,19 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\OIC\\source\\repos\\MiApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|C:\\Users\\OIC\\source\\repos\\MiApp\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|c:\\users\\oic\\source\\repos\\miapp\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|solutionrelative:controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|c:\\users\\oic\\source\\repos\\miapp\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|C:\\Users\\OIC\\source\\repos\\MiApp\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|c:\\users\\oic\\source\\repos\\miapp\\views\\clientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|C:\\Users\\OIC\\source\\repos\\MiApp\\views\\clientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|solutionrelative:views\\clientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|c:\\users\\oic\\source\\repos\\miapp\\models\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|C:\\Users\\OIC\\source\\repos\\MiApp\\models\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFEBF024-E1B5-4AF2-BECA-3DD7D70E6806}|MiApp.csproj|solutionrelative:models\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -67,8 +67,7 @@
               "RelativeToolTip": "Views\\Clientes\\Details.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-20T14:58:27.434Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T14:58:27.434Z"
             },
             {
               "$type": "Document",
@@ -92,8 +91,7 @@
               "RelativeToolTip": "Models\\Clientes.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T20:15:42.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T20:15:42.856Z"
             },
             {
               "$type": "Document",
