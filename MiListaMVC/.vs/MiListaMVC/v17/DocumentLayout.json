@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\OIC\\source\\repos\\MiApp\\MiListaMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D9E9C8A-2B9D-45EA-9743-6E96BD0DCBAC}|MiListaMVC.csproj|c:\\users\\oic\\source\\repos\\miapp\\milistamvc\\views\\sample\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D9E9C8A-2B9D-45EA-9743-6E96BD0DCBAC}|MiListaMVC.csproj|solutionrelative:views\\sample\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D9E9C8A-2B9D-45EA-9743-6E96BD0DCBAC}|MiListaMVC.csproj|c:\\users\\oic\\source\\repos\\miapp\\milistamvc\\controllers\\samplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D9E9C8A-2B9D-45EA-9743-6E96BD0DCBAC}|MiListaMVC.csproj|solutionrelative:controllers\\samplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\OIC\\source\\repos\\MiApp\\MiListaMVC\\Views\\Sample\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Sample\\Index.cshtml",
+              "ToolTip": "C:\\Users\\OIC\\source\\repos\\MiApp\\MiListaMVC\\Views\\Sample\\Index.cshtml",
+              "RelativeToolTip": "Views\\Sample\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T13:50:34.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SampleController.cs",
+              "DocumentMoniker": "C:\\Users\\OIC\\source\\repos\\MiApp\\MiListaMVC\\Controllers\\SampleController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SampleController.cs",
+              "ToolTip": "C:\\Users\\OIC\\source\\repos\\MiApp\\MiListaMVC\\Controllers\\SampleController.cs",
+              "RelativeToolTip": "Controllers\\SampleController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T13:39:49.771Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
